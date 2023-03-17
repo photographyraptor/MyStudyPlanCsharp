@@ -429,23 +429,90 @@ Implementar un sistema de venta de productos en línea que utilice los patrones 
 
 >33 Unit Testing
 
->34 Test Driven Development
+Desarrollar una calculadora básica en C# utilizando el enfoque TDD (Desarrollo guiado por pruebas) para implementar pruebas unitarias y asegurar la calidad del código.
 
->35 Communication and Data Manipulation through WebServices, RESTful, APIs, etc
+- Definir los requerimientos de la calculadora, como por ejemplo, las operaciones que debe permitir y los tipos de datos que debe aceptar.
+- Escribir una prueba unitaria para validar la funcionalidad de la operación de suma. Esta prueba debe asegurarse de que la calculadora sume correctamente dos números.
+- Ejecutar la prueba unitaria y asegurarse de que falle, ya que aún no se ha implementado la funcionalidad.
+- Implementar la operación de suma en la calculadora.
+- Ejecutar nuevamente la prueba unitaria y asegurarse de que ahora pase.
+- Repetir los pasos 2 a 5 para todas las operaciones que se hayan definido en los requerimientos.
+- Escribir pruebas unitarias adicionales para validar situaciones especiales, como por ejemplo, la división entre cero o el ingreso de datos no válidos.
+- Ejecutar todas las pruebas unitarias y asegurarse de que todas pasen.
+- Refactorizar el código de la calculadora para asegurarse de que es legible, mantenible y cumple con los estándares de calidad.
+- Ejecutar nuevamente todas las pruebas unitarias y asegurarse de que siguen pasando.
 
->36 CLR
+>34 Communication and Data Manipulation through WebServices, RESTful, APIs, etc
 
->37 COM+
+Desarrollar una aplicación de consola en C# que consuma la API pública de una red social, como por ejemplo, Twitter o Instagram, y realice algunas operaciones de manipulación de datos, como por ejemplo, obtener los últimos tweets o publicaciones y analizar el sentimiento de los mismos.
 
---promt
+- Obtener las credenciales de la API pública de la red social que se va a utilizar.
+- Crear un proyecto de consola en C# y agregar las dependencias necesarias para consumir la API.
+- Escribir el código para realizar la autenticación con la API utilizando las credenciales obtenidas en el paso 1.
+- Escribir el código para consumir la API y obtener los últimos tweets o publicaciones de la red social.
+- Escribir el código para analizar el sentimiento de los tweets o publicaciones utilizando una biblioteca de análisis de sentimiento, como por ejemplo, NLTK (Natural Language Toolkit) o TextBlob.
+- Imprimir los resultados del análisis de sentimiento en la consola.
+- Refactorizar el código para asegurarse de que es legible, mantenible y cumple con los estándares de calidad.
+- Agregar manejo de errores en el código para asegurarse de que la aplicación sea robusta y maneje situaciones inesperadas.
+- Ejecutar la aplicación de consola y asegurarse de que funciona correctamente.
+- Si se desea, se puede agregar una funcionalidad adicional, como por ejemplo, permitir al usuario ingresar un hashtag o término de búsqueda para obtener los tweets o publicaciones relacionados con ese término.
 
-Recomiendame un ejercicio o proyecto en Csharp para consolidar: Unit testing
-Contestame de la siguiente forma:
-Ejercicio: 
-XXX
-Pasos sugeridos:
-1 aa
-2 bb
-.
-.
-.
+>35 CLR
+
+Desarrollar una aplicación en C# que muestre cómo interactúa el Common Language Runtime (CLR) con el código C# y cómo se gestionan los recursos de la aplicación.
+
+- Crear un proyecto de consola en C# y escribir el código para imprimir algunos mensajes en la consola.
+- Ejecutar el programa y observar cómo se compila el código C# en código intermedio (CIL) y cómo se ejecuta en el CLR.
+- Escribir el código para crear un objeto y llamar a un método de ese objeto.
+- Observar cómo el CLR gestiona la memoria y cómo se elimina el objeto cuando ya no es necesario.
+- Escribir el código para crear un objeto que implemente la interfaz IDisposable y utilice un recurso no administrado, como por ejemplo, un archivo.
+- Implementar el método Dispose para liberar el recurso no administrado y observar cómo el CLR gestiona la eliminación del objeto.
+- Escribir el código para crear un objeto que genere una excepción y observar cómo el CLR gestiona la excepción y cómo se limpian los recursos.
+- Refactorizar el código para asegurarse de que es legible, mantenible y cumple con los estándares de calidad.
+- Agregar manejo de errores en el código para asegurarse de que la aplicación sea robusta y maneje situaciones inesperadas.
+- Ejecutar la aplicación y observar cómo el CLR gestiona los recursos y cómo se manejan las excepciones.
+
+>36 COM+
+
+Desarrollar una aplicación en C# que utilice COM+ para implementar transacciones distribuidas y asegurar la integridad de los datos en caso de fallas en la red.
+
+- Crear una base de datos en SQL Server y crear una tabla para almacenar información.
+- Crear un proyecto de biblioteca de clases en C# y agregar referencias a las bibliotecas necesarias para utilizar COM+.
+- Escribir el código para crear un componente COM+ que se conecte a la base de datos y permita leer y escribir datos en la tabla.
+- Escribir el código para definir una transacción distribuida y asegurarse de que el componente COM+ pueda participar en la transacción.
+- Escribir el código para utilizar el componente COM+ y realizar algunas operaciones de lectura y escritura de datos.
+- Simular una falla en la red y observar cómo se comporta la transacción distribuida y cómo se asegura la integridad de los datos.
+- Refactorizar el código para asegurarse de que es legible, mantenible y cumple con los estándares de calidad.
+- Agregar manejo de errores en el código para asegurarse de que la aplicación sea robusta y maneje situaciones inesperadas.
+- Ejecutar la aplicación y asegurarse de que funciona correctamente y que los datos se mantienen íntegros en caso de fallas en la red.
+- Si se desea, se puede agregar una funcionalidad adicional, como por ejemplo, permitir al usuario ingresar datos en la consola y escribirlos en la tabla de la base de datos utilizando la transacción distribuida.
+
+>37 Entity Framework
+
+Desarrollar una aplicación en C# que utilice Entity Framework para interactuar con una base de datos y realizar operaciones de lectura, escritura y actualización de datos.
+
+- Crear una base de datos en SQL Server y agregar algunas tablas con datos de ejemplo.
+- Crear un proyecto de consola en C# y agregar las referencias necesarias para utilizar Entity Framework.
+- Configurar Entity Framework para conectarse a la base de datos y generar el modelo de objetos que represente las tablas y sus relaciones.
+- Escribir el código para consultar datos de la base de datos y mostrarlos en la consola.
+- Escribir el código para insertar nuevos datos en la base de datos y mostrarlos en la consola.
+- Escribir el código para actualizar datos existentes en la base de datos y mostrarlos en la consola.
+- Escribir el código para eliminar datos de la base de datos y mostrar los datos actualizados en la consola.
+- Refactorizar el código para asegurarse de que es legible, mantenible y cumple con los estándares de calidad.
+- Agregar manejo de errores en el código para asegurarse de que la aplicación sea robusta y maneje situaciones inesperadas.
+- Ejecutar la aplicación y asegurarse de que funciona correctamente y que los datos se mantienen íntegros en la base de datos. Si se desea, se puede agregar una funcionalidad adicional, como por ejemplo, permitir al usuario ingresar datos en la consola y escribirlos en la base de datos utilizando Entity Framework.
+
+>38 GraphQL
+
+Desarrollar una aplicación en C# que utilice GraphQL para implementar una API que permita realizar consultas y mutaciones sobre una base de datos.
+
+- Crear una base de datos en SQL Server y agregar algunas tablas con datos de ejemplo.
+- Configurar la aplicación para utilizar GraphQL y definir los tipos de datos y esquemas que se utilizarán para la API.
+- Escribir el código para definir los resolvers, que son los encargados de recibir las consultas y mutaciones de GraphQL y realizar las operaciones correspondientes en la base de datos.
+- Escribir el código para realizar consultas sencillas, como por ejemplo, obtener todos los registros de una tabla o filtrar los registros según algunos criterios.
+- Escribir el código para realizar mutaciones sencillas, como por ejemplo, insertar un nuevo registro en una tabla o actualizar un registro existente.
+- Escribir el código para implementar consultas y mutaciones más complejas, como por ejemplo, realizar búsquedas por campos anidados, aplicar filtros avanzados, realizar paginación y ordenamiento de resultados, entre otros.
+- Refactorizar el código para asegurarse de que es legible, mantenible y cumple con los estándares de calidad.
+- Agregar manejo de errores en el código para asegurarse de que la aplicación sea robusta y maneje situaciones inesperadas.
+- Ejecutar la aplicación y asegurarse de que funciona correctamente y que las consultas y mutaciones se realizan correctamente en la base de datos.
+- Si se desea, se puede agregar una funcionalidad adicional, como por ejemplo, autenticación y autorización de usuarios, integración con otras APIs, entre otras.
