@@ -11,7 +11,7 @@ Escribe un programa en C# que solicite al usuario ingresar dos números enteros 
 - Realiza las operaciones de suma, resta, multiplicación y división de los dos números y almacena los resultados en variables separadas.
 - Muestra los resultados de las operaciones utilizando la función "Console.WriteLine()" y formateando el texto de salida adecuadamente.
 - Ejecuta el programa y asegúrate de que maneje correctamente todas las posibles entradas del usuario.
-
+---
 >2 Operators
 
 Escribe un programa en C# que solicite al usuario ingresar la medida de los lados de un triángulo y determine si el triángulo es equilátero, isósceles o escaleno. El programa debe mostrar el tipo de triángulo por pantalla.
@@ -22,7 +22,7 @@ Escribe un programa en C# que solicite al usuario ingresar la medida de los lado
 - Utiliza operadores de comparación y lógicos para determinar el tipo de triángulo y almacenar el resultado en una variable separada.
 - Muestra el resultado utilizando la función "Console.WriteLine()" y formateando el texto de salida adecuadamente.
 - Ejecuta el programa y asegúrate de que maneje correctamente todas las posibles entradas del usuario.
-
+---
 >3 Conditions
 
 Escribe un programa en C# que solicite al usuario ingresar su edad y determine si es mayor o menor de edad. Si es mayor de edad, el programa debe solicitar al usuario que ingrese su género y mostrar un mensaje apropiado. Si es menor de edad, el programa debe mostrar un mensaje indicando que no está autorizado a realizar la acción.
@@ -34,7 +34,7 @@ Escribe un programa en C# que solicite al usuario ingresar su edad y determine s
 - Si el usuario es mayor de edad, solicita al usuario que ingrese su género utilizando la función "Console.ReadLine()" y muestra un mensaje apropiado utilizando la función "Console.WriteLine()".
 - Si el usuario es menor de edad, muestra un mensaje indicando que no está autorizado a realizar la acción.
 - Ejecuta el programa y asegúrate de que maneje correctamente todas las posibles entradas del usuario.
-
+---
 >4 Loops
 
 Escribe un programa en C# que solicite al usuario ingresar un número entero positivo y luego muestre por pantalla todos los números pares desde 0 hasta ese número (incluyendo el número ingresado).
@@ -46,7 +46,7 @@ Escribe un programa en C# que solicite al usuario ingresar un número entero pos
 - Dentro del bucle, utiliza una estructura condicional "if" para determinar si el número actual es par.
 - Si el número es par, muestra el número por pantalla utilizando la función "Console.WriteLine()".
 - Ejecuta el programa y asegúrate de que maneje correctamente todas las posibles entradas del usuario.
-
+---
 >5 Arrays
 
 Escribe un programa en C# que solicite al usuario ingresar una lista de números enteros y luego muestre por pantalla el promedio de los números ingresados.
@@ -58,7 +58,7 @@ Escribe un programa en C# que solicite al usuario ingresar una lista de números
 - Calcula el promedio dividiendo la suma total por la cantidad de números en el array.
 - Muestra el promedio por pantalla utilizando la función "Console.WriteLine()".
 - Ejecuta el programa y asegúrate de que maneje correctamente todas las posibles entradas del usuario.
-
+---
 >6 Methods
 
 Escribe un programa en C# que solicite al usuario ingresar una lista de números enteros y luego muestre por pantalla el número más grande de la lista.
@@ -71,7 +71,7 @@ Escribe un programa en C# que solicite al usuario ingresar una lista de números
 - Llama al método "EncontrarMaximo" pasándole el array de números ingresados como parámetro y guarda el resultado en una variable.
 - Muestra el número más grande por pantalla utilizando la función "Console.WriteLine()".
 - Ejecuta el programa y asegúrate de que maneje correctamente todas las posibles entradas del usuario.
-
+---
 >7 Exception Handling
 
 Escribe un programa en C# que solicite al usuario ingresar un número entero y luego muestre por pantalla el resultado de dividir 100 entre ese número. Si el usuario ingresa un número igual a cero, el programa debe mostrar un mensaje de error indicando que la división por cero no es posible.
@@ -84,7 +84,7 @@ Escribe un programa en C# que solicite al usuario ingresar un número entero y l
 - Si el número ingresado por el usuario es cero, se generará una excepción de división por cero. Crea un bloque "catch" para manejar esta excepción.
 - Dentro del bloque "catch", muestra un mensaje de error indicando que la división por cero no es posible.
 - Ejecuta el programa y asegúrate de que maneje correctamente todas las posibles entradas del usuario.
-
+---
 >8 Events
 
 Crea un programa que simule una sala de cine. El programa debe permitir que los usuarios compren entradas para una película en una hora y fecha específica, y también debe permitir que se cancelen las entradas. Además, el programa debe enviar un mensaje de recordatorio por correo electrónico a los usuarios que hayan comprado entradas una hora antes de la hora de inicio de la película.
@@ -96,7 +96,7 @@ Crea un programa que simule una sala de cine. El programa debe permitir que los 
 - En la clase "SalaDeCine", define dos eventos: "EntradaComprada" y "EntradaCancelada". Cuando se compre o se cancele una entrada, se debe invocar el evento correspondiente para notificar a cualquier objeto interesado sobre el cambio en el estado de la sala.
 - En el método "Main" del programa, crea una instancia de la clase "SalaDeCine" y agrega algunos usuarios y entradas. También crea una instancia de la clase "RecordatorioPorCorreoElectronico" y suscríbete al evento "EntradaComprada" de la sala de cine para que se envíe un mensaje de recordatorio por correo electrónico cuando alguien compre una entrada.
 - Ejecuta el programa y asegúrate de que se envíen los correos electrónicos de recordatorio correctamente y de que los eventos "EntradaComprada" y "EntradaCancelada" se manejen correctamente.
-
+---
 >9 Delegates
 
 Crear una aplicación de consola que permita realizar operaciones matemáticas básicas (suma, resta, multiplicación y división) utilizando delegados en C#.
@@ -110,7 +110,7 @@ Crear una aplicación de consola que permita realizar operaciones matemáticas b
 - Utilizar el delegado correspondiente para realizar la operación matemática seleccionada.
 - Mostrar el resultado al usuario.
 - Ofrecer la opción de realizar otra operación o salir del programa.
-
+---
 >10 Classes and Objects
 
 Crear una aplicación de consola que permita gestionar una lista de contactos utilizando clases y objetos en C#.
@@ -124,7 +124,7 @@ Crear una aplicación de consola que permita gestionar una lista de contactos ut
 - Validar los datos introducidos por el usuario para asegurar que sean válidos (por ejemplo, que el correo electrónico tenga un formato correcto).
 - Utilizar la serialización para guardar los contactos en un archivo y cargarlos de nuevo al iniciar la aplicación.
 - Ofrecer la opción de salir del programa o guardar los cambios realizados.
-
+---
 >11 Data Hiding
 
 Crear una clase CuentaBancaria que permita realizar operaciones de depósito, retirada y consulta de saldo, y aplicar el principio de ocultamiento de datos en C#.
@@ -136,7 +136,7 @@ Crear una clase CuentaBancaria que permita realizar operaciones de depósito, re
 - Utilizar el modificador readonly para evitar que las propiedades de la clase CuentaBancaria sean modificadas fuera de la propia clase.
 - Crear una clase Cliente que tenga una lista de cuentas bancarias y permita realizar operaciones como agregar o eliminar cuentas, consultar saldos de todas las cuentas, etc.
 - Utilizar la clase CuentaBancaria en conjunto con la clase Cliente para permitir al usuario interactuar con las cuentas bancarias de forma segura y controlada.
-
+---
 >12 Composition, Aggregate and Association
 
 Library Management System
@@ -155,7 +155,7 @@ Library Management System
 - Implementar métodos para prestar y devolver libros, y para generar el historial de préstamos y multas.
 - Agregar excepciones y manejo de errores en caso de que los libros no estén disponibles o los miembros tengan multas pendientes.
 - Crear una interfaz de usuario para interactuar con la biblioteca, donde los usuarios puedan agregar, buscar y prestar libros, agregar y eliminar miembros, etc.
-
+---
 >13 Inheritance
 
 Banking System
@@ -168,7 +168,7 @@ Banking System
 - Crea una clase llamada "Cliente" que contenga un campo para el nombre del cliente y un array de objetos "CuentaBancaria" que representen las cuentas que tiene el cliente.
 - Implementa métodos en la clase "Cliente" que permitan agregar y eliminar cuentas bancarias de un cliente.
 - Prueba el funcionamiento del sistema creando algunos clientes y realizando operaciones de depósito y retiro en sus cuentas bancarias.
-
+---
 >14 Polymorphism
 
 Crear una calculadora que pueda realizar operaciones aritméticas básicas (+, -, *, /) con diferentes tipos de datos.
@@ -180,7 +180,7 @@ Crear una calculadora que pueda realizar operaciones aritméticas básicas (+, -
 - Crear un método Calcular() en la clase Calculadora que invoque el método Calcular() de la operación establecida anteriormente y devuelva el resultado.
 - En la función principal, crear una instancia de la clase Calculadora y llamar al método EstablecerOperacion() con una instancia de alguna de las subclases de Operacion (por ejemplo, Suma) y establecer los operandos de la operación.
 - Llamar al método Calcular() de la calculadora y mostrar el resultado por pantalla.
-
+---
 >15 Abstract Classes and Interfaces
 
 Creación de una calculadora básica utilizando clases abstractas e interfaces.
@@ -192,7 +192,7 @@ Creación de una calculadora básica utilizando clases abstractas e interfaces.
 - Implementar los métodos abstractos "Add" y "Subtract" en la clase "BasicCalculator" y los métodos "Multiply" y "Divide" en la clase "ScientificCalculator".
 - Crear una instancia de la clase "BasicCalculator" y una instancia de la clase "ScientificCalculator".
 - Probar los métodos de ambas instancias para verificar que la calculadora básica y la calculadora científica funcionen correctamente.
-
+---
 >16 System.Random
 
 Juego de adivinanza de números
@@ -204,7 +204,7 @@ Juego de adivinanza de números
 - Si el número adivinado es menor que el número generado, mostrar un mensaje que indique que el número adivinado es menor y pedir al usuario que vuelva a intentarlo.
 - Si el número adivinado es mayor que el número generado, mostrar un mensaje que indique que el número adivinado es mayor y pedir al usuario que vuelva a intentarlo.
 - Repetir los pasos 2-6 hasta que el usuario adivine el número generado o hasta que se alcance un número máximo de intentos.
-
+---
 >17 Garbage Collector
 
 Simulación de un programa de gestión de memoria
@@ -213,7 +213,7 @@ Simulación de un programa de gestión de memoria
 - Crear una clase MemoryManager que tenga un método Allocate que reciba como parámetro el tamaño del bloque de memoria a asignar y retorne un objeto de tipo MemoryBlock con el tamaño especificado. Esta clase debe llevar un control de los bloques de memoria asignados y liberados.
 - Crear una aplicación de consola que instancie un objeto de tipo MemoryManager y permita al usuario solicitar la asignación de bloques de memoria de diferentes tamaños. Al liberar un bloque de memoria, la aplicación debe llamar al método Dispose del objeto MemoryBlock.
 - Añadir la funcionalidad de monitoreo del consumo de memoria de la aplicación, utilizando la clase GC de C# para obtener información sobre la cantidad de memoria asignada y liberada por el programa.
-
+---
 >18 Asynchronous Programming
 
 Simple Asynchronous Task
@@ -223,7 +223,7 @@ Simple Asynchronous Task
 - Crea una función async llamada TestAsync que invoque CountNumbersAsync y espere a que se complete la tarea.
 - Dentro de TestAsync, después de esperar a que se complete la tarea, imprime el resultado en la consola.
 - Crea una función Main que invoque TestAsync y espere a que se complete la tarea.
-
+---
 >19 Tasks and Parallelism
 
 Parallel Image Processing
@@ -232,7 +232,7 @@ Parallel Image Processing
 - Crea una lista de tareas (Task) para procesar cada imagen en paralelo utilizando el método Parallel.ForEach().
 - Dentro de cada tarea, utiliza la librería System.Drawing para cargar la imagen, aplicar una operación (por ejemplo, escala de grises o aumento de contraste), y guardar la imagen procesada en un nuevo archivo.
 - Cuando todas las tareas se completen, muestra un mensaje indicando que el procesamiento ha terminado y muestra las imágenes procesadas.
-
+---
 >20 Common LINQ Methods
 
 Crear una aplicación de consola que utilice Common LINQ Methods para manipular una lista de objetos.
@@ -247,7 +247,7 @@ Crear una aplicación de consola que utilice Common LINQ Methods para manipular 
 - Utiliza el método "First" para obtener la primera persona en la lista y mostrar su nombre y profesión en la consola.
 - Utiliza el método "Count" para contar cuántas personas en la lista tienen una edad mayor a 25.
 - Muestra los resultados de cada operación en la consola para verificar que se hayan realizado correctamente.
-
+---
 >21 Advanced LINQ Expressions
 
 Crear una aplicación de consola que utilice Advanced LINQ Expressions para manipular una lista de objetos.
@@ -262,7 +262,7 @@ Crear una aplicación de consola que utilice Advanced LINQ Expressions para mani
 - Utiliza el método "Where" con una expresión lambda para filtrar los productos que vencen en los próximos 30 días y mostrar sus nombres y fechas de vencimiento en la consola.
 - Utiliza el método "Average" para obtener el precio promedio de los productos en la lista y mostrarlo en la consola.
 - Muestra los resultados de cada operación en la consola para verificar que se hayan realizado correctamente.
-
+---
 >22 Linked List
 
 Crear una aplicación de consola que implemente una Linked List para almacenar y manipular una lista de números enteros.
@@ -280,7 +280,7 @@ Crear una aplicación de consola que implemente una Linked List para almacenar y
 - Muestra los valores de los nodos en la lista actualizada utilizando el método "Mostrar".
 - Implementa un método llamado "Buscar" que reciba como parámetro un valor entero y devuelva el nodo con ese valor, si existe en la lista.
 - Utiliza el método "Buscar" para buscar el nodo con el valor igual a 5 y mostrar su valor en la consola.
-
+---
 >23 Stacks and Queues
 
 Crear una aplicación de consola que utilice stacks y queues para manipular una lista de nombres.
@@ -296,7 +296,7 @@ Crear una aplicación de consola que utilice stacks y queues para manipular una 
 - Utiliza el método "Pop" del stack para eliminar el último nombre agregado de la lista.
 - Utiliza el método "Dequeue" del queue para eliminar el primer nombre agregado de la lista.
 - Muestra los valores actualizados del stack y del queue en la consola para verificar que se hayan eliminado correctamente los nombres.
-
+---
 >24 Hashing
 
 Crear una aplicación de consola que implemente una tabla de hashing para almacenar y manipular una lista de productos.
@@ -314,7 +314,7 @@ Crear una aplicación de consola que implemente una tabla de hashing para almace
 - Agrega un nuevo producto a la tabla de hashing utilizando el método "AgregarProducto".
 - Muestra todos los productos en la tabla de hashing utilizando un bucle foreach y mostrando sus propiedades en la consola.
 - Modifica el código de un producto existente en la tabla de hashing y muestra sus propiedades actualizadas en la consola.
-
+---
 >25 Graph
 
 Crear una aplicación de consola que implemente un grafo dirigido para representar y manipular una red de carreteras.
@@ -334,7 +334,7 @@ Crear una aplicación de consola que implemente un grafo dirigido para represent
 - Elimina una carretera del grafo utilizando el método "EliminarArista".
 - Muestra en la consola la lista de adyacencia del grafo actualizada para cada ciudad utilizando el método "ObtenerVecinos".
 - Utiliza el algoritmo de Dijkstra para encontrar el camino más corto entre dos ciudades del grafo. Muestra el camino y la distancia total en la consola.
-
+---
 >26 Binary Tree
 
 Crear una aplicación de consola que implemente un árbol binario de búsqueda y permita realizar operaciones de búsqueda, inserción y eliminación de nodos.
@@ -355,7 +355,7 @@ Crear una aplicación de consola que implemente un árbol binario de búsqueda y
 - Busca un nodo con un valor específico utilizando el método "Buscar" y muestra el resultado en la consola.
 - Elimina un nodo con un valor específico utilizando el método "Eliminar".
 - Realiza un recorrido inorden del árbol actualizado utilizando el método "RecorridoInOrden" y muestra el resultado en la consola.
-
+---
 >27 Trie
 
 Implementar un Trie en C# para almacenar y buscar palabras en un diccionario.
@@ -365,7 +365,7 @@ Implementar un Trie en C# para almacenar y buscar palabras en un diccionario.
 - Implementar el método para insertar palabras en el Trie. Para ello, se debe recorrer la palabra letra por letra, creando nuevos nodos si es necesario, y establecer la propiedad de palabra completa en el último nodo.
 - Implementar el método para buscar palabras en el Trie. Se debe recorrer el Trie letra por letra y verificar si cada nodo tiene un hijo que coincida con la siguiente letra de la palabra buscada. Si se llega a un nodo que indica que es una palabra completa, se ha encontrado la palabra buscada.
 - Probar la implementación con un diccionario de palabras y verificar que las palabras se puedan insertar y buscar correctamente en el Trie.
-
+---
 >28 Heap
 
 Implementar un Heap (montículo) en C# para ordenar un arreglo de números.
@@ -376,7 +376,7 @@ Implementar un Heap (montículo) en C# para ordenar un arreglo de números.
 - Implementar el método para eliminar el elemento de mayor prioridad. Este es el elemento en la posición 0 del arreglo. Se debe reemplazar este elemento con el último elemento del arreglo y hacer un recorrido hacia abajo intercambiando el elemento con su hijo de mayor prioridad mientras el hijo tenga una prioridad mayor que el elemento.
 - Implementar el método para ordenar el arreglo utilizando el Heap. Para ello, se debe insertar todos los elementos del arreglo en el Heap y luego eliminar el elemento de mayor prioridad y agregarlo al final del arreglo ordenado. Este proceso se repite hasta que se hayan eliminado todos los elementos del Heap.
 - Probar la implementación con un arreglo de números y verificar que se ordene correctamente utilizando el Heap.
-
+---
 >29 Funtional Programming
 
 Implementar una función en C# que reciba una lista de números enteros y devuelva una nueva lista con los números pares elevados al cuadrado.
@@ -386,7 +386,7 @@ Implementar una función en C# que reciba una lista de números enteros y devuel
 - Utilizar la función de filtrado (filter) para obtener una lista que solo contenga los números pares de la lista original.
 - Combinar las funciones de mapeo y filtrado utilizando la función de reducción (reduce) para obtener la lista final con los números pares elevados al cuadrado.
 - Probar la implementación con una lista de números y verificar que se devuelva una nueva lista con los números pares elevados al cuadrado.
-
+---
 >30 AOP (Aspect Oriented Programming)
 
 Implementar el registro de tiempo de ejecución de métodos utilizando AOP en C#.
@@ -396,7 +396,7 @@ Implementar el registro de tiempo de ejecución de métodos utilizando AOP en C#
 - Aplicar el atributo personalizado a los métodos que se desean registrar y utilizar el aspecto personalizado para realizar el registro de tiempo de ejecución.
 - Configurar el aspecto personalizado para que escriba la información de registro en un archivo de registro.
 - Probar la implementación con algunos métodos y verificar que el tiempo de ejecución se registre correctamente en el archivo de registro.
-
+---
 >31 Real Time Programming and Notification Events
 
 Implementar un sistema de notificación de eventos en tiempo real utilizando C# y SignalR.
@@ -406,7 +406,7 @@ Implementar un sistema de notificación de eventos en tiempo real utilizando C# 
 - Configurar un hub de SignalR en C# para enviar los eventos en tiempo real a los clientes conectados.
 - Configurar un cliente de SignalR en C# para recibir los eventos en tiempo real y mostrarlos en la pantalla.
 - Probar la implementación simulando la generación de eventos y verificar que los eventos se envíen en tiempo real a los clientes conectados y se muestren en la pantalla.
-
+---
 >32 Patterns
 
 Implementar un sistema de venta de productos en línea que utilice los patrones de diseño MVC, Factory, Singleton, Observer, Strategy, Adapter, Decorator, Command, Template Method, Iterator, Visitor, Composite, Facade, Bridge y Chain of Responsibility.
@@ -426,7 +426,7 @@ Implementar un sistema de venta de productos en línea que utilice los patrones 
 - Usa el patrón de diseño Facade para simplificar el acceso a los diferentes componentes del sistema de venta. Crea una clase "VentaFacade" que tenga métodos para realizar operaciones comunes, como agregar productos al carrito de compras o realizar una compra, que llamen a los diferentes componentes del sistema de venta.
 - Implementa el patrón de diseño Bridge para separar la interfaz de usuario de la implementación del sistema de venta. Crea una interfaz gráfica de usuario (GUI) para el sistema de venta y separa la lógica de negocios de la interfaz gráfica de usuario utilizando una clase "VentaBridge" que actúe como intermediario.
 - Usa el patrón de diseño Chain of Responsibility para manejar las diferentes excepciones y errores que puedan surgir durante el proceso de compra. Crea una cadena de manejadores de excepciones, como "ShippingExceptionHandler" o "PaymentExceptionHandler", y utiliza esta cadena para manejar diferentes tipos de excepciones de manera ordenada.
-
+---
 >33 Unit Testing
 
 Desarrollar una calculadora básica en C# utilizando el enfoque TDD (Desarrollo guiado por pruebas) para implementar pruebas unitarias y asegurar la calidad del código.
@@ -441,7 +441,7 @@ Desarrollar una calculadora básica en C# utilizando el enfoque TDD (Desarrollo 
 - Ejecutar todas las pruebas unitarias y asegurarse de que todas pasen.
 - Refactorizar el código de la calculadora para asegurarse de que es legible, mantenible y cumple con los estándares de calidad.
 - Ejecutar nuevamente todas las pruebas unitarias y asegurarse de que siguen pasando.
-
+---
 >34 Communication and Data Manipulation through WebServices, RESTful, APIs, etc
 
 Desarrollar una aplicación de consola en C# que consuma la API pública de una red social, como por ejemplo, Twitter o Instagram, y realice algunas operaciones de manipulación de datos, como por ejemplo, obtener los últimos tweets o publicaciones y analizar el sentimiento de los mismos.
@@ -456,7 +456,7 @@ Desarrollar una aplicación de consola en C# que consuma la API pública de una 
 - Agregar manejo de errores en el código para asegurarse de que la aplicación sea robusta y maneje situaciones inesperadas.
 - Ejecutar la aplicación de consola y asegurarse de que funciona correctamente.
 - Si se desea, se puede agregar una funcionalidad adicional, como por ejemplo, permitir al usuario ingresar un hashtag o término de búsqueda para obtener los tweets o publicaciones relacionados con ese término.
-
+---
 >35 CLR
 
 Desarrollar una aplicación en C# que muestre cómo interactúa el Common Language Runtime (CLR) con el código C# y cómo se gestionan los recursos de la aplicación.
@@ -471,7 +471,7 @@ Desarrollar una aplicación en C# que muestre cómo interactúa el Common Langua
 - Refactorizar el código para asegurarse de que es legible, mantenible y cumple con los estándares de calidad.
 - Agregar manejo de errores en el código para asegurarse de que la aplicación sea robusta y maneje situaciones inesperadas.
 - Ejecutar la aplicación y observar cómo el CLR gestiona los recursos y cómo se manejan las excepciones.
-
+---
 >36 COM+
 
 Desarrollar una aplicación en C# que utilice COM+ para implementar transacciones distribuidas y asegurar la integridad de los datos en caso de fallas en la red.
@@ -486,7 +486,7 @@ Desarrollar una aplicación en C# que utilice COM+ para implementar transaccione
 - Agregar manejo de errores en el código para asegurarse de que la aplicación sea robusta y maneje situaciones inesperadas.
 - Ejecutar la aplicación y asegurarse de que funciona correctamente y que los datos se mantienen íntegros en caso de fallas en la red.
 - Si se desea, se puede agregar una funcionalidad adicional, como por ejemplo, permitir al usuario ingresar datos en la consola y escribirlos en la tabla de la base de datos utilizando la transacción distribuida.
-
+---
 >37 Entity Framework
 
 Desarrollar una aplicación en C# que utilice Entity Framework para interactuar con una base de datos y realizar operaciones de lectura, escritura y actualización de datos.
@@ -501,7 +501,7 @@ Desarrollar una aplicación en C# que utilice Entity Framework para interactuar 
 - Refactorizar el código para asegurarse de que es legible, mantenible y cumple con los estándares de calidad.
 - Agregar manejo de errores en el código para asegurarse de que la aplicación sea robusta y maneje situaciones inesperadas.
 - Ejecutar la aplicación y asegurarse de que funciona correctamente y que los datos se mantienen íntegros en la base de datos. Si se desea, se puede agregar una funcionalidad adicional, como por ejemplo, permitir al usuario ingresar datos en la consola y escribirlos en la base de datos utilizando Entity Framework.
-
+---
 >38 GraphQL
 
 Desarrollar una aplicación en C# que utilice GraphQL para implementar una API que permita realizar consultas y mutaciones sobre una base de datos.
@@ -516,3 +516,4 @@ Desarrollar una aplicación en C# que utilice GraphQL para implementar una API q
 - Agregar manejo de errores en el código para asegurarse de que la aplicación sea robusta y maneje situaciones inesperadas.
 - Ejecutar la aplicación y asegurarse de que funciona correctamente y que las consultas y mutaciones se realizan correctamente en la base de datos.
 - Si se desea, se puede agregar una funcionalidad adicional, como por ejemplo, autenticación y autorización de usuarios, integración con otras APIs, entre otras.
+---
